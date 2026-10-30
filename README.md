@@ -26,6 +26,10 @@ Scores below are validation mAP50 on the project's own split.
 | [yolo12s-aerial-vehicle-person](https://huggingface.co/Has1tas/yolo12s-aerial-vehicle-person) | Vehicle and person detection | 0.885 |
 | [yolo26m-landing-zones](https://huggingface.co/Has1tas/yolo26m-landing-zones) | Landing-zone detection and suitability | 0.858 |
 
+## Open-source contributions
+
+- [avenoxai/avenoxbeyin](https://github.com/avenoxai/avenoxbeyin) (open-source Obsidian + Claude Code second-brain system with persistent cross-session memory): merged fix that keeps receipts hidden when their private source cannot be read ([PR #525](https://github.com/avenoxai/avenoxbeyin/pull/525)).
+
 ## Currently
 
 Building a personal agent/evaluation lab — coming soon.
