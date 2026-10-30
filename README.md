@@ -28,7 +28,7 @@ Scores below are validation mAP50 on the project's own split.
 
 ## Open-source contributions
 
-- [avenoxai/avenoxbeyin](https://github.com/avenoxai/avenoxbeyin) (open-source Obsidian + Claude Code second-brain system with persistent cross-session memory): merged fix that keeps receipts hidden when their private source cannot be read ([PR #525](https://github.com/avenoxai/avenoxbeyin/pull/525)).
+- **[AvenoxBeyin](https://github.com/avenoxai/avenoxbeyin)** (open-source Obsidian + Claude Code second-brain system with persistent cross-session memory): I stress-tested v3.12.0 and found 8 issues: 3 high (private-note summaries leaking into recap and daily views, case-insensitive paths bypassing the privacy gate on Windows, broken-YAML private notes treated as public), 3 medium (triage exposing private paths, supersedes cycles retiring notes silently, a `:` in a note name blocking the journal) and 2 low (secret filter missing zero-width and split forms, partial batch ingest not reported). I fixed all eight ([fix branch](https://github.com/hasbitas/avenoxbeyin/tree/fixes/v3.12.0-stress-test)); the fail-closed privacy fix was merged upstream in [PR #525](https://github.com/avenoxai/avenoxbeyin/pull/525).
 
 ## Currently
 
