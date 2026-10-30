@@ -12,7 +12,7 @@ I'm a second-year Artificial Intelligence and Data Engineering student at Atatü
 
 | Project | What it does | Tech | Link |
 | --- | --- | --- | --- |
-| aerial-detection-pipeline | Detects objects in UAV imagery for TEKNOFEST 2026 Aviation AI task 1, estimates motion with camera movement compensation, and checks landing-area suitability, with a demo and CSV output. | Ultralytics YOLO (YOLO26s), optical flow, Gradio | [GitHub](https://github.com/hasbitas/aerial-detection-pipeline) |
+| aerial-detection-pipeline | Detects vehicles, people and landing areas in UAV imagery, estimates motion with camera movement compensation, and checks landing-area suitability, with a demo and CSV output. | Ultralytics YOLO (YOLO26s), optical flow, Gradio | [GitHub](https://github.com/hasbitas/aerial-detection-pipeline) |
 | AlloyForge | An AI-assisted alloy design MVP combining a learning agent, thermodynamic screening, and surrogate prediction. | PyTorch PPO, FastAPI, React | [GitHub](https://github.com/hasbitas/alloyforge) |
 | YAP-IS | An AI leave planner with ER-load forecasting. | CatBoost, FastAPI | [GitHub](https://github.com/hasbitas/yapay_zeka_destekli_izin_zamanlay-c-_sistemi) |
 
@@ -40,4 +40,4 @@ Python · PyTorch · Ultralytics YOLO · OpenCV · FastAPI · React/TypeScript �
 
 ## Contact
 
-[GitHub](https://github.com/hasbitas) · [Hugging Face](https://huggingface.co/Has1tas)
+[LinkedIn](https://www.linkedin.com/in/bircan-tas) · [GitHub](https://github.com/hasbitas) · [Hugging Face](https://huggingface.co/Has1tas)
