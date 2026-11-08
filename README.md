@@ -12,6 +12,7 @@ I'm a second-year Artificial Intelligence and Data Engineering student at Atatü
 
 | Project | What it does | Tech | Link |
 | --- | --- | --- | --- |
+| avlu | A dependency-free toolkit for an AI-agent working environment: a hard gate for multi-agent orchestration (ownership checks, frozen acceptance tests, verified "done" evidence, secret scrubbing), memory retrieval and its measurement for a markdown note vault, and an open eval framework that scores the environment 0-100 with tests instead of model judgement (`avlu.toml` metric plugins). | Python stdlib, pytest, GitHub Actions | [GitHub](https://github.com/hasbitas/avlu) |
 | aerial-detection-pipeline | Detects vehicles, people and landing areas in UAV imagery, estimates motion with camera movement compensation, and checks landing-area suitability, with a demo and CSV output. | Ultralytics YOLO (YOLO26s), optical flow, Gradio | [GitHub](https://github.com/hasbitas/aerial-detection-pipeline) |
 | AlloyForge | An AI-assisted alloy design MVP combining a learning agent, thermodynamic screening, and surrogate prediction. | PyTorch PPO, FastAPI, React | [GitHub](https://github.com/hasbitas/alloyforge) |
 | YAP-IS | An AI leave planner with ER-load forecasting. | CatBoost, FastAPI | [GitHub](https://github.com/hasbitas/yap-is) |
@@ -32,7 +33,7 @@ Scores below are validation mAP50 on the project's own split.
 
 ## Currently
 
-Building a personal agent/evaluation lab — coming soon.
+Building [avlu](https://github.com/hasbitas/avlu), an open eval framework for AI-agent working environments (v0.3.0: `avlu.toml` metric plugins, orchestration gate, memory measurement).
 
 ## Tech
 
