@@ -12,9 +12,9 @@ I'm a second-year Artificial Intelligence and Data Engineering student at Atatü
 
 | Project | What it does | Tech | Link |
 | --- | --- | --- | --- |
-| aerial-detection-pipeline | Detects vehicles, people and landing areas in UAV imagery, estimates motion with camera movement compensation, and checks landing-area suitability, with a demo and CSV output. | Ultralytics YOLO (YOLO26s), optical flow, Gradio | [GitHub](https://github.com/hasbitas/aerial-detection-pipeline) |
-| AlloyForge | An AI-assisted alloy design MVP combining a learning agent, thermodynamic screening, and surrogate prediction. | PyTorch PPO, FastAPI, React | [GitHub](https://github.com/hasbitas/alloyforge) |
-| YAP-IS | An AI leave planner with ER-load forecasting. | CatBoost, FastAPI | [GitHub](https://github.com/hasbitas/yap-is) |
+| aerial-detection-pipeline | Detects vehicles, people and landing areas in UAV imagery, estimates motion with camera movement compensation, and checks landing-area suitability, with a demo and CSV output. | Ultralytics YOLO (YOLO26s), optical flow, Gradio | [GitHub](https://github.com/1at33/aerial-detection-pipeline) |
+| AlloyForge | An AI-assisted alloy design MVP combining a learning agent, thermodynamic screening, and surrogate prediction. | PyTorch PPO, FastAPI, React | [GitHub](https://github.com/1at33/alloyforge) |
+| YAP-IS | An AI leave planner with ER-load forecasting. | CatBoost, FastAPI | [GitHub](https://github.com/1at33/yap-is) |
 
 ## Models on Hugging Face
 
@@ -22,13 +22,13 @@ Scores below are validation mAP50 on the project's own split.
 
 | Model | Task | mAP50 |
 | --- | --- | --- |
-| [yolo26s-aerial-uav](https://huggingface.co/Has1tas/yolo26s-aerial-uav) | Vehicle, person, UAP and UAI detection | 0.899 |
-| [yolo12s-aerial-vehicle-person](https://huggingface.co/Has1tas/yolo12s-aerial-vehicle-person) | Vehicle and person detection | 0.885 |
-| [yolo26m-landing-zones](https://huggingface.co/Has1tas/yolo26m-landing-zones) | Landing-zone detection and suitability | 0.858 |
+| [yolo26s-aerial-uav](https://huggingface.co/1at33/yolo26s-aerial-uav) | Vehicle, person, UAP and UAI detection | 0.899 |
+| [yolo12s-aerial-vehicle-person](https://huggingface.co/1at33/yolo12s-aerial-vehicle-person) | Vehicle and person detection | 0.885 |
+| [yolo26m-landing-zones](https://huggingface.co/1at33/yolo26m-landing-zones) | Landing-zone detection and suitability | 0.858 |
 
 ## Open-source contributions
 
-- **[AvenoxBeyin](https://github.com/avenoxai/avenoxbeyin)** (open-source Obsidian + Claude Code second-brain system with persistent cross-session memory): I stress-tested v3.12.0 and found 8 issues: 3 high (private-note summaries leaking into recap and daily views, case-insensitive paths bypassing the privacy gate on Windows, broken-YAML private notes treated as public), 3 medium (triage exposing private paths, supersedes cycles retiring notes silently, a `:` in a note name blocking the journal) and 2 low (secret filter missing zero-width and split forms, partial batch ingest not reported). I fixed all eight ([fix branch](https://github.com/hasbitas/avenoxbeyin/tree/fixes/v3.12.0-stress-test)); the fail-closed privacy fix was merged upstream in [PR #525](https://github.com/avenoxai/avenoxbeyin/pull/525).
+- **[AvenoxBeyin](https://github.com/avenoxai/avenoxbeyin)** (open-source Obsidian + Claude Code second-brain system with persistent cross-session memory): I stress-tested v3.12.0 and found 8 issues: 3 high (private-note summaries leaking into recap and daily views, case-insensitive paths bypassing the privacy gate on Windows, broken-YAML private notes treated as public), 3 medium (triage exposing private paths, supersedes cycles retiring notes silently, a `:` in a note name blocking the journal) and 2 low (secret filter missing zero-width and split forms, partial batch ingest not reported). I fixed all eight ([fix branch](https://github.com/1at33/avenoxbeyin/tree/fixes/v3.12.0-stress-test)); the fail-closed privacy fix was merged upstream in [PR #525](https://github.com/avenoxai/avenoxbeyin/pull/525).
 
 
 
@@ -38,4 +38,4 @@ Python · PyTorch · Ultralytics YOLO · OpenCV · FastAPI · React/TypeScript �
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/bircan-tas) · [GitHub](https://github.com/hasbitas) · [Hugging Face](https://huggingface.co/Has1tas)
+[LinkedIn](https://www.linkedin.com/in/bircan-tas) · [GitHub](https://github.com/1at33) · [Hugging Face](https://huggingface.co/1at33)
