@@ -16,6 +16,19 @@ I'm a second-year Artificial Intelligence and Data Engineering student at Atatü
 | AlloyForge | An AI-assisted alloy design MVP combining a learning agent, thermodynamic screening, and surrogate prediction. | PyTorch PPO, FastAPI, React | [GitHub](https://github.com/1at33/alloyforge) |
 | YAP-IS | An AI leave planner with ER-load forecasting. | CatBoost, FastAPI | [GitHub](https://github.com/1at33/yap-is) |
 
+## Agent tooling
+
+Small, dependency-free Python tools I built for my own AI-agent workflow and then split out of my private setup. Each one runs on its own; docs are in Turkish with an English summary.
+
+| Project | What it does | Link |
+| --- | --- | --- |
+| nobet | Hard gate for sub-agent work: file ownership, untouchable tests, fresh "done" evidence, secret-free subprocesses; scans the work tree and git history for personal data. | [GitHub](https://github.com/1at33/nobet) |
+| hatir | Semantic search (embedding + lexical RRF) and retrieval evaluation for a markdown note vault: hit@k, MRR, negative sets, note quality report. | [GitHub](https://github.com/1at33/hatir) |
+| anlik | Claude Code `PreToolUse` hook that shows a rule right when the agent is about to run the related command, not at session start. | [GitHub](https://github.com/1at33/anlik) |
+| serit | Git discipline for parallel agent sessions on one repo: protected main, lane branches, commit only your own files, merge and push gates. | [GitHub](https://github.com/1at33/serit) |
+| vaka | Turns real agent mistakes into behavioral eval cases: case format, reference/negative/empty validation, capability and regression suites. | [GitHub](https://github.com/1at33/vaka) |
+| teslim | Pre-publish check before a repo goes public (noreply identity, full-history personal data and secret scan, CI), plus a hook that blocks publishing without a valid receipt. | [GitHub](https://github.com/1at33/teslim) |
+
 ## Models on Hugging Face
 
 Scores below are validation mAP50 on the project's own split.
