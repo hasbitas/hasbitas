@@ -27,6 +27,7 @@ Small, dependency-free Python tools I built for my own AI-agent workflow and the
 | serit | Git discipline for parallel agent sessions on one repo: protected main, lane branches, commit only your own files, merge and push gates. | [GitHub](https://github.com/hasbitas/serit) |
 | vaka | Turns real agent mistakes into behavioral eval cases: case format, reference/negative/empty validation, capability and regression suites. | [GitHub](https://github.com/hasbitas/vaka) |
 | teslim | Pre-publish check before a repo goes public (noreply identity, full-history personal data and secret scan, CI), plus a hook that blocks publishing without a valid receipt. | [GitHub](https://github.com/hasbitas/teslim) |
+| beceri | Toolkit for writing AI-agent skills (SKILL.md): validator with flexible and strict profiles, scaffolding from templates, two ready skills, and a 75-task coding benchmark with integrity checks. | [GitHub](https://github.com/hasbitas/beceri) |
 
 ## Models on Hugging Face
 
